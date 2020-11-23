@@ -1,0 +1,96 @@
+
+body{
+	background-color:black;
+	padding:0;
+	margin:0 auto;
+}
+.navigation{
+	margin-bottom: 0px;
+}
+.jumbotron{
+	text-align: center;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	text-shadow: 2px 2px #000;
+	background-color: black;
+	font-family: helvetica;
+}
+.bg-cover{
+	color:#FFE4E1;
+	font-weight:bold;
+	text-shadow:2px 2px 2px;
+	background-position: center center;
+	position: relative;
+	background-size: cover;
+	filter:grayscale(100%);
+
+}
+.bg-cover1{
+		  background-image:  url("../images/pictureone.jpg");
+		  	  
+} 
+.bg-cover2{
+           background-image:  url("../images/picturetwo.jpg");
+           background-repeat: no-repeat;
+}
+
+.bg-cover3{
+           background-image:  url("../images/picturefour.jpg");
+} 
+.bg-cover4{
+           background-image:   url("../images/picturefive.jpg");
+}
+.bg-cover5{
+           background-image:  url("../images/picturethree.jpg");
+}
+      
+.overlay{
+	background-color: white;
+	opacity: 0.5;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: -1;
+}
+
+h1{
+	font-size: 8vw;
+	font-weight:bold;
+}
+
+
+#boxes{
+	color:#FFE4E1;
+	text-align:center;
+	font-size:20px;
+	margin-top:20px;
+	padding:30px;
+}
+#box{
+	text-justify: auto;
+	text-indent:50px;
+	width:30%;
+	padding:50px;
+	text-align:center;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+a{
+	color:#C71585;
+}
+#img{
+	width:300px;
+	height:300px;
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	padding:50px;
+}
+ @mediascreen and (max-width: 576px){
+	.jumbotron{
+		padding-top: 20%;
+		padding-bottom: 20%;
+	}
+}
